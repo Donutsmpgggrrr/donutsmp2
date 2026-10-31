@@ -6,7 +6,7 @@ import os
 from flask import Flask
 
 # Pulls the Webhook URL securely from Render's Environment Variables
-WEBHOOK_URL = os.environ.get("WEBHOOK_URL")
+WEBHOOK_URL = os.environ.get("https://discord.com/api/webhooks/1566219392298000434/SprMvOfw2lfIqRJuUpLmH2C3l8F-TBv1mAfMpMOB_YFp6fuFskg4GsJJMWB-ag46cvUB")
 ROLE_ID = "1566214495490277487"
 
 # Regions matching your setup
